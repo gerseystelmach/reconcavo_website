@@ -1,0 +1,10 @@
+{
+    "name": "reconcavo/website",
+    "type": "project",
+    "license": "open source",
+    "authors": [{
+        "name": "Gersey Stelmach",
+        "email": "gerseystelmach@gmail.com"
+    }],
+    "require": {}
+}

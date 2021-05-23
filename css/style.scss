@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$primaryColor: #115574;
+$secondaryColor: #f59d04;
+$thirdColor: #ffcc00;
+$lightColor: #f7f9fc;
+$spacing1: 8px;
+$spacing2: 16px;
+$spacing3: 24px;
+$spacing4: 32px;
+$spacing5: 40px;
+$textFont: 'Open Sans',
+sans-serif;
+
+body {
+    background-color: $lightColor;
+    font-family: $textFont;
+    font-size: 1em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+.navbar {
+    background-color: $primaryColor;
+
+
+}
+
+.nav-link {
+    color: $lightColor !important;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    font-family: $textFont;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $secondaryColor !important;
+        transition: 0.3s;
+    }
+}
+
+.logoName {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $lightColor;
+    font-weight: bold;
+    font-family: 'Open Sans',
+        sans-serif;
+
+    &:after {
+        content: "Engenharia e Arquitetura";
+        font-size: 40%;
+        display: block;
+        margin: auto;
+        font-weight: 500;
+
+
+    }
+}
+
+.logoNav {
+    width: 3.5rem;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0px;
+}
+
+
+/* Introduction */
+
+.aboutIntro {
+    margin-bottom: 80px;
+}
+
+.aboutText {
+    line-height: 40px;
+    max-width: 600px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.introImage {
+    background-image: url('/home/gerseystelmach/Projetos_WCS/Reconcavo_git/reconcavo_website/assets/img/thisisengineering-raeng-SyRlD4s_amw-unsplash(1)-min.jpg');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+#servicos {
+    background-color: $primaryColor;
+
+    color: $primaryColor;
+
+    h2 {
+        text-align: center;
+        padding: $spacing5;
+        color: $lightColor;
+    }
+
+    h3 {
+        text-align: center;
+        padding: $spacing3;
+    }
+
+    p {
+        padding: $spacing3;
+        text-align: justify;
+    }
+}
+
+.servCard {
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.engenhariaCard {
+    background-image: url('../assets/img/engenharia-img-servicos.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.arquiteturaCard {
+    background-image: url('/assets/img/arquitetura-img-servicos.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.consultoriaCard {
+    background-image: url('/assets/img/consultoria-img-servicos.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

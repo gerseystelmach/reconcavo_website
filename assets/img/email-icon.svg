@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_33" data-name="Retângulo 33" width="35" height="35" transform="translate(506 2467)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="email-icon" transform="translate(-506 -2467)" clip-path="url(#clip-path)">
+    <path id="mail" d="M17.5,0A17.5,17.5,0,1,0,35,17.5,17.5,17.5,0,0,0,17.5,0ZM8.75,8.75h17.5a2.155,2.155,0,0,1,.894.194L17.5,20.194,7.856,8.943A2.157,2.157,0,0,1,8.75,8.75ZM6.563,24.063V10.938c0-.046,0-.091,0-.137l6.414,7.483L6.638,24.628a2.162,2.162,0,0,1-.075-.565ZM26.25,26.25H8.75a2.16,2.16,0,0,1-.565-.075l6.225-6.225L17.5,23.556l3.091-3.606,6.225,6.225a2.169,2.169,0,0,1-.565.075Zm2.188-2.187a2.163,2.163,0,0,1-.075.565l-6.344-6.344L28.433,10.8c0,.045,0,.091,0,.137V24.062Z" transform="translate(506 2467)" fill="#fff"/>
+  </g>
+</svg>

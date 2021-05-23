@@ -1,0 +1,23 @@
+{
+  "name": "reconcavo",
+  "version": "1.0.0",
+  "description": "Reconcavo website project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gerseystelmach/reconcavo_website.git"
+  },
+  "author": "Gersey Stelmach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerseystelmach/reconcavo_website/issues"
+  },
+  "homepage": "https://github.com/gerseystelmach/reconcavo_website#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "animejs": "^3.2.1"
+  }
+}
